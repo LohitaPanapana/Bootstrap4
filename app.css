@@ -60,5 +60,14 @@ section{
 }
 
 .card{
-	border-color: #465074;
+	border-color: #6CC6D9;
+}
+
+#notification{
+	background-color: #F7F7F7;
+}
+
+.pic{
+	height: 300px;
+	width: 100%;
 }
