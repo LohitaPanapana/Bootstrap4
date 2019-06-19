@@ -1,0 +1,117 @@
+html,body{
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	scroll-behavior: smooth;
+}
+
+#cover{
+	background-image: url(../img/cover1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+#cover h1{
+	font-size: 4.5rem;
+	font-weight: 700;
+	text-shadow: 1px 1px 10px white;
+}
+
+#heading{
+	color: #465080;
+	margin-top: 12rem;
+}
+
+#heading p{
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 1.5rem;
+	text-shadow: 1px 1px 10px white;
+	font-weight: 600;
+}
+
+#heading .btn-primary{
+	color: white;
+	border-color: #465080;
+	background-color: #465080;
+	-webkit-box-shadow: 2px 5px 21px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 2px 5px 21px 0px rgba(0,0,0,1);
+	box-shadow: 2px 5px 21px 0px rgba(0,0,0,1);
+}
+
+#navBar{
+	/*background-color: rgba(255,255,255, 0.2);*/
+	margin-right: 5rem;
+}
+
+#headNavbar .nav-link{
+	letter-spacing: 2;
+	font-size: 1.145rem;
+	margin: 0 0.5rem;
+	color: #465074;
+	font-weight: bold;
+}
+
+#headNavbar .nav-link:hover{
+	border-bottom: 2px solid #465074;
+}
+
+#headNavbar .navbar-brand{
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 2.5rem;
+	background-color: #465074;
+	border: 1px solid #465074;
+}
+
+section{
+	margin-bottom: 1rem;
+}
+
+.card-header, .card-footer{
+	background-color: #465074;
+	color: white;
+}
+
+.card{
+	border-color: #6CC6D9;
+	/*height: 100%;*/
+	display: none;
+}
+
+#notification{
+	/*background-color: #F7F7F7;*/
+	-webkit-transition: height 1s; /* Safari */
+  	transition: height 1s ease-in;
+}
+
+.pic{
+	height: 300px;
+	width: 100%;
+}
+
+.section-header{
+	font-size: 1.50rem;
+	/*background-color: rgba(81, 90, 90, 0.1);*/
+	padding: 10px 20px 10px 20px;
+	text-transform: uppercase;
+	margin:0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.section-header a{
+	color: #515A5A;
+	font-weight: 600;
+	-webkit-transition: font-size 0.5s; /* Safari */
+  	transition: font-size 0.5s ease-in-out;
+}
+
+.section-header a:hover{
+	text-decoration: none;
+	font-size: 1.75rem;
+}
+/*.display{
+	opacity: 1;
+	height: auto;
+	transition height 2s linear;
+}*/
